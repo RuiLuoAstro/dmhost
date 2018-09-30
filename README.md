@@ -1,6 +1,6 @@
 # dmhost
 
-Simulations of FRB host galaxy dispersion measures (DMs) in nearby universe. Each simulation contains 1,000,000 FRBs
+Simulations of FRB host galaxy dispersion measures (DMs) in the nearby universe, each simulation contains 1,000,000 FRBs
 
 ## NOTICE
 
