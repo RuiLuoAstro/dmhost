@@ -2,7 +2,7 @@
 
 Simulations of FRB host galaxy dispersion measures (DMs) in nearby universe.
 
-## Notice
+## NOTICE
 
 If you would like to use the code to simulate DM of FRB host galaxies in any cases, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](http://adsabs.harvard.edu/abs/2018MNRAS.481.2320L)
 
