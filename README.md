@@ -7,12 +7,10 @@ Simulations of FRB host galaxy dispersion measures (DMs) in nearby universe.
 If you would like to use the code to simulate DM of FRB host galaxies in any cases, please cite the paper [Luo et al. 2018, MNRAS, 481, 2320](http://adsabs.harvard.edu/abs/2018MNRAS.481.2320L)
 
 ## Dependencies
-
 ### Numpy, Scipy, gcc (4.8.x), gfortran(4.8.x)
 
 
 ## Directions
-
 ### A large sample of Early-type Galaxies (ETGs):
 
 $ ./run_dmetg.sh
