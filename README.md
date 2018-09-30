@@ -27,7 +27,7 @@ $ ./run_dmetgtemp.sh
 
 $ ./run_dmltg_ne2001.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Using NE2001 electron density model ([Cordes & Lazio 2002](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:astro-ph/0207156)) as template
 
-$ ./run_dmltg_ymw16.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Using YMW16 electron density model ([Yao, Manchester, Wang, 2017, ApJ](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.09448)) as template
+$ ./run_dmltg_ymw16.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Using YMW16 electron density model ([Yao, Manchester, Wang, 2017, ApJ, 835, 29](http://adsabs.harvard.edu/abs/2017ApJ...835...29Y)) as template
 
 ### Template of LTGs: the Milky Way
 
