@@ -40,3 +40,16 @@ $ ./run_dmtemp_ymw16.sh &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Using YMW16 electr
 $ ./run_dmalg_ne2001.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Including ETGs and LTGs according to the results from SDSS, using NE2001 electron density model as LTG template, M87 as ETG template. 
 
 $ ./run_dmalg_ymw16.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Including ETGs and LTGs according to the results from SDSS, using YMW16 electron density model as LTG template, M87 as ETG template. 
+
+### Updates on acceleration of YMW16 integration
+
+To avoid consuming time on read parameters for large number of DMs calculation, e.g. reading parameters once in one DM integration, we revised the execute libarary of YMW16 by reconstructing the main function. You can accomplish the simulations by these commands as following:
+
+$ cd ymw16/
+$ ./runltg.sh   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Simulating FRB DMs of LTGs in the case that LTGs as hosts
+
+$ ./runalg.sh   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Simulating FRB DMs of LTGs in the case that ALGs as hosts.
+
+This just includes the LTGs DMs, in order to get the DM of ETGs in the ALGs case, you still need to run
+
+$ ./run_dmetg_ymw16.sh
