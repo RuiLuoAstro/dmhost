@@ -50,6 +50,6 @@ $ ./runltg.sh   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Simulating FRB DMs of
 
 $ ./runalg.sh   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Simulating FRB DMs of LTGs in the case that ALGs as hosts.
 
-This just includes the LTGs DMs, in order to get the DM of ETGs in the ALGs case, you still need to run
+**This just includes the LTGs DMs, in order to get the DM of ETGs in the ALGs case, you still need to run**
 
 $ ./run_dmetg_ymw16.sh
