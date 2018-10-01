@@ -43,7 +43,7 @@ $ ./run_dmalg_ymw16.sh  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Including ETGs and 
 
 ### Updates on acceleration of YMW16 integration
 
-To avoid consuming time on read parameters for large number of DMs calculation, e.g. reading parameters once in one DM integration, we revised the execute libarary of YMW16 by reconstructing the main function. You can accomplish the simulations by these commands as following:
+To avoid consuming time on read parameters for large number of DMs calculation, e.g. reading parameters once in one DM integration, we regenerated the executable file of YMW16 by reconstructing the main function. You can accomplish the simulations by these commands as following:
 
 $ cd ymw16/
 $ ./runltg.sh   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Simulating FRB DMs of LTGs in the case that LTGs as hosts
